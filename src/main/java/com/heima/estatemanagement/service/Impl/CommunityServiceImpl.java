@@ -1,7 +1,9 @@
 package com.heima.estatemanagement.service.Impl;
 
+import com.heima.estatemanagement.dao.CommunityMapper;
 import com.heima.estatemanagement.domain.Community;
 import com.heima.estatemanagement.service.CommunityService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -15,13 +17,11 @@ import java.util.List;
  */
 @Service
 public class CommunityServiceImpl implements CommunityService {
+    @Autowired
+    private CommunityMapper communityMapper;
     @Override
     public List<Community> findAll() {
-        ArrayList<Community> list = new ArrayList<Community>();
-        Community community = new Community();
-        community.setId(121);
-        community.setName("社区1");
-        list.add(community);
-        return list;
+        List<Community> communities = communityMapper.selectAll();
+        return communities;
     }
 }
