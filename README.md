@@ -3,10 +3,32 @@
 
 
 
+
+<p align="center">
+   <a target="_blank" href="https://github.com/codeCoffee404/estate">
+      <img src="https://img.shields.io/hexpm/l/plug.svg"/>
+      <img src="https://img.shields.io/badge/JDK-1.8+-green.svg"/>
+      <img src="https://img.shields.io/badge/springboot-2.4.2.RELEASE-green"/>
+      <img src="https://img.shields.io/badge/vue-2.5.17-green"/>
+      <img src="https://img.shields.io/badge/mysql-8.0.20-green"/>
+      <img src="https://img.shields.io/badge/mybatis--plus-3.4.0-green"/>
+      <img src="https://img.shields.io/badge/redis-6.0.5-green"/>
+      <img src="https://img.shields.io/badge/elasticsearch-7.9.2-green"/>
+      <img src="https://img.shields.io/badge/rabbitmq-3.8.5-green"/>
+      <img src="https://img.shields.io/badge/uniapp-2.0.0-green"/>
+   </a>
+</p>
+
+
+
+
+
 # postman 测试避坑
+
 raw  https://blog.csdn.net/weixin_44299027/article/details/104490196
 
 # 技术选型
+
 ## 技术选型
 
 ### 后端技术
